@@ -1,0 +1,55 @@
+/**
+ * Premise Portfolio CSS
+ */
+
+/**
+ * The content
+ */
+#pwpp-portfolio-content {
+	display: block;
+}
+#pwpp-portfolio-content:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+/**
+ * The Portfolio Grid
+ *
+ * @scope #pwpp-portfolio-grid
+ */
+
+#pwpp-portfolio-grid {
+	font: inherit;
+}
+
+#pwpp-portfolio-grid .pwpp-item {
+	margin-top: 2em;
+	margin-bottom: 3em;
+	cursor: pointer;
+}
+
+#pwpp-portfolio-grid .pwpp-post-title,
+#pwpp-portfolio-grid .pwpp-post-thumbnail,
+#pwpp-portfolio-grid .pwpp-post-excerpt,
+#pwpp-portfolio-grid .pwpp-post-meta {
+	margin-bottom: 1.25em;
+}
+
+#pwpp-portfolio-grid .pwpp-post-thumbnail img {
+	display: block;
+	margin: 0 auto;
+}
+
+#pwpp-portfolio-grid .pwpp-post-meta > div {
+	display: inline-block;
+	padding-right: 1em;
+	margin-right: 1em;
+	border-right: 1px solid #ccc;
+}
+
+#pwpp-portfolio-grid .pwpp-post-meta > div:last-child {
+	border-right: 0;
+}

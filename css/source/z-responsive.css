@@ -1,0 +1,24 @@
+/**
+ * Responsive CSS for premise portfolio
+ */
+
+/**
+ * @768px - iPad portrait
+ */
+@media screen and (min-width: 768px) {
+	/*#pwpp-portfolio-grid .pwpp-item.col2:nth-child( 2n +1 ) {
+		clear: left;
+	}*/
+	/*#pwpp-portfolio-grid .pwpp-item.col3:nth-child( 3n +1 ) {
+		clear: left;
+	}*/
+	/*#pwpp-portfolio-grid .pwpp-item.col4:nth-child( 4n +1 ) {
+		clear: left;
+	}*/
+	/*#pwpp-portfolio-grid .pwpp-item.col5:nth-child( 5n +1 ) {
+		clear: left;
+	}*/
+	/*#pwpp-portfolio-grid .pwpp-item.col6:nth-child( 6n +1 ) {
+		clear: left;
+	}*/
+}
